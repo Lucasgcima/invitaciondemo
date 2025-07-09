@@ -2,16 +2,18 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fdfdfd;
   color: #333;
+  background: url('images/fondo-elegante.jpg') center/cover no-repeat fixed;
+  background-size: cover;
 }
 
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/fondo-elegante.jpg') center/cover no-repeat;
-  color: white;
   text-align: center;
   padding: 100px 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4); /* fondo semitransparente para que resalte el texto */
 }
+
 
 .hero h1 {
   font-size: 3em;
