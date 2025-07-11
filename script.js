@@ -21,3 +21,10 @@ function updateCountdown() {
 
 setInterval(updateCountdown, 1000);
 updateCountdown();
+
+ const playBtn = document.getElementById("play-music");
+ const audio = document.getElementById("bg-music");
+ playBtn.addEventListener("click", () => {
+   audio.play();
+   playBtn.style.display = "none";
+ });
