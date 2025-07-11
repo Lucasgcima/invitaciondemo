@@ -41,9 +41,13 @@ body {
 
 .galeria img {
   width: 250px;
+  height: 250px;
+  object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  aspect-ratio: 1/1;
 }
+
 
 form {
   max-width: 500px;
